@@ -1,4 +1,4 @@
-module github.com/shitaibin/fabric-sdk-go-sample
+module github.com/Nasfame/fabric-sdk-go-sample
 
 go 1.12
 

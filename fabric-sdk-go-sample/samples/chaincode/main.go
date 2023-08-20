@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/shitaibin/fabric-sdk-go-sample/cli"
+	"github.com/Nasfame/fabric-sdk-go-sample/cli"
 )
 
 const (
