@@ -11,13 +11,14 @@ type HelloWorldContract struct {
 }
 
 func (c *HelloWorldContract) HelloWorld(ctx contractapi.TransactionContextInterface) error {
-	fmt.Println("Hello, World!")
+	fmt.Println("Hello, World 1.1")
 
 	return nil
 }
 
 func main() {
 	sampleContract := new(HelloWorldContract)
+
 	cc, err := contractapi.NewChaincode(sampleContract)
 	if err != nil {
 		fmt.Printf("Error creating HelloWorld chaincode: %s", err.Error())
