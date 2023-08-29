@@ -6,8 +6,10 @@ require github.com/hyperledger/fabric-contract-api-go v1.2.1
 
 require (
 	github.com/MaxHalford/eaopt v0.4.2 // indirect
+	github.com/Nasfame/gomind v0.0.0-20230829225821-73cab1ad1b4d // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
+	github.com/cdipaolo/goml v0.0.0-20220715001353-00e0c845ae1c // indirect
 	github.com/chewxy/hm v1.0.0 // indirect
 	github.com/chewxy/math32 v1.10.1 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -29,6 +31,7 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rogpeppe/go-internal v1.8.1 // indirect
+	github.com/surenderthakran/gomind v0.0.0-20180731125518-a31b8878d726 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
