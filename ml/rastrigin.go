@@ -28,7 +28,7 @@ func main() {
     oes.GA.RNG = rand.New(rand.NewSource(42))
 
     // Run minimization
-    _, y, err := oes.Minimize(Rastrigin, 2)
+    _, y, err := oes.Minimize(Rastrigin, 2, []float64{0.1})
     if err != nil {
         fmt.Println(err)
         return
