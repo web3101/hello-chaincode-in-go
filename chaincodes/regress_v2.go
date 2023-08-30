@@ -11,6 +11,7 @@ import (
 )
 
 type RegressionChaincode struct {
+	// is lower level high:.contract.api
 }
 
 func (t *RegressionChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
